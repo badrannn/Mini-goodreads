@@ -13,6 +13,12 @@
             text-align: center;
             -webkit-text-stroke: 1px blue;
         }
+
+        ul {
+        padding: 8px;
+        color :rgb(191, 255, 161);
+        display: inline-block;
+        }
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,5 +44,18 @@
             </form>
         </div>
     </nav>
+    <h1>
+        <%=err%>
+    </h1>
+    <ul>
+        <% for(var name of arr1 ){%>
+            <li><%= name %></li>
+        <% } %>
+    </ul>
+    <ul>
+        <% for(var name of arr2 ){%>
+            <li><a href="<%= name %>">Click here</a></li>
+        <% } %>
+    </ul>
 </body>
 </html>

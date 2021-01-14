@@ -77,9 +77,12 @@
     <div class="container2">
         A poetry collection by American poet Walt Whitman (1819–1892), each poem of which is loosely connected and represents the celebration of his philosophy of life and humanity.
     </div>
+    <form method="POST" action='/addleaves' class="form-inline my-2 my-lg-0">
     <div class="readlist">
         <button id="readlist" class="btn btn-secondary ml-3">Add to Want to Read List</button>
+        <span style="color:red"><%= error %></span>
     </div>
+</form>
     <div class="video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/RR4syp8Nhs8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
