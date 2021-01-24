@@ -5,5 +5,5 @@ This is a simple library website which me and my team done for a university proj
 
 
 
-below is the link of the website for you to check.
+below is the link of the website for you to check out.
 https://team67.herokuapp.com/ 
