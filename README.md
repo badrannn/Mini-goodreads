@@ -1,7 +1,6 @@
-# team-67
 Networks project
 
-This is a simple library website which me and my team done for a university projects. We were provided with the CSS and HTML code and were asked to make a functional website out of it.
+A simple library website which my team and I implemented for a university project. We were provided with the CSS and HTML code and were asked to make a functional website out of it.
 
 
 
